@@ -207,14 +207,6 @@ members = [
 	"utils/wasm-builder",
 ]
 
-[patch.crates-io.parity-scale-codec]
-git = "https://github.com/paritytech/parity-scale-codec"
-version = "2.2.0"
-branch = "igor-max-encoded-len"
-[patch.crates-io.parity-scale-codec-derive]
-git = "https://github.com/paritytech/parity-scale-codec"
-branch = "igor-max-encoded-len"
-version = "2.2.0"
 [patch.crates-io.primitive-types]
 git = "https://github.com/paritytech/parity-common"
 branch = "igor-use-new-codec"
