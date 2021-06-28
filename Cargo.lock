@@ -1695,7 +1695,7 @@ dependencies = [
 [[package]]
 name = "fixed-hash"
 version = "0.7.0"
-source = "git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec#cf4a9684c92c10a4ac99a6020ce7df67f86d647c"
+source = "git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec#141c6095afeb2779bfb7106fce5170ec6a5cacf1"
 dependencies = [
  "byteorder",
  "rand 0.8.3",
@@ -2698,8 +2698,8 @@ dependencies = [
 
 [[package]]
 name = "impl-codec"
-version = "0.6.0"
-source = "git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec#cf4a9684c92c10a4ac99a6020ce7df67f86d647c"
+version = "0.5.1"
+source = "git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec#141c6095afeb2779bfb7106fce5170ec6a5cacf1"
 dependencies = [
  "parity-scale-codec",
 ]
@@ -2716,7 +2716,7 @@ dependencies = [
 [[package]]
 name = "impl-serde"
 version = "0.3.1"
-source = "git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec#cf4a9684c92c10a4ac99a6020ce7df67f86d647c"
+source = "git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec#141c6095afeb2779bfb7106fce5170ec6a5cacf1"
 dependencies = [
  "serde",
 ]
@@ -6236,12 +6236,12 @@ dependencies = [
 [[package]]
 name = "primitive-types"
 version = "0.9.1"
-source = "git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec#cf4a9684c92c10a4ac99a6020ce7df67f86d647c"
+source = "git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec#141c6095afeb2779bfb7106fce5170ec6a5cacf1"
 dependencies = [
  "fixed-hash",
  "impl-codec",
- "impl-serde 0.3.1 (git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec)",
- "uint 0.9.0 (git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec)",
+ "impl-serde 0.3.1 (git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec)",
+ "uint 0.9.0 (git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec)",
 ]
 
 [[package]]
@@ -10679,7 +10679,7 @@ dependencies = [
 [[package]]
 name = "uint"
 version = "0.9.0"
-source = "git+https://github.com/paritytech/parity-common?branch=igor-prim-types-new-codec#cf4a9684c92c10a4ac99a6020ce7df67f86d647c"
+source = "git+https://github.com/paritytech/parity-common?branch=igor-use-new-codec#141c6095afeb2779bfb7106fce5170ec6a5cacf1"
 dependencies = [
  "byteorder",
  "crunchy",
