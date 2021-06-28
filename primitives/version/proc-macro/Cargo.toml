@@ -20,7 +20,7 @@ quote = "1.0.3"
 syn = { version = "1.0.58", features = ["full", "fold", "extra-traits", "visit"] }
 proc-macro2 = "1.0.6"
 proc-macro-crate = "1.0.0"
-codec = { package = "parity-scale-codec", version = "2.0.0", features = [ "derive" ] }
+codec = { package = "parity-scale-codec", version = "2.2.0-rc.3", features = [ "derive" ] }
 
 [dev-dependencies]
 sp-version = { version = "3.0.0", path = ".." }
