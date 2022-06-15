@@ -3644,7 +3644,7 @@ dependencies = [
  "libp2p-core",
  "libp2p-swarm",
  "log 0.4.14",
- "lru",
+ "lru 0.6.6",
  "minicbor",
  "rand 0.7.3",
  "smallvec 1.7.0",
@@ -3974,6 +3974,15 @@ name = "lru"
 version = "0.6.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7ea2d928b485416e8908cff2d97d621db22b27f7b3b6729e438bcf42c671ba91"
+dependencies = [
+ "hashbrown 0.11.2",
+]
+
+[[package]]
+name = "lru"
+version = "0.7.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c84e6fe5655adc6ce00787cf7dcaf8dc4f998a0565d23eafc207a8b08ca3349a"
 dependencies = [
  "hashbrown 0.11.2",
 ]
@@ -8077,7 +8086,7 @@ dependencies = [
  "linked-hash-map",
  "linked_hash_set",
  "log 0.4.14",
- "lru",
+ "lru 0.7.7",
  "parity-scale-codec",
  "parking_lot 0.11.1",
  "pin-project 1.0.8",
@@ -8120,7 +8129,7 @@ dependencies = [
  "futures-timer 3.0.2",
  "libp2p",
  "log 0.4.14",
- "lru",
+ "lru 0.7.7",
  "quickcheck",
  "sc-network",
  "sp-runtime",
@@ -9112,7 +9121,7 @@ version = "4.0.0-dev"
 dependencies = [
  "futures 0.3.16",
  "log 0.4.14",
- "lru",
+ "lru 0.7.7",
  "parity-scale-codec",
  "parking_lot 0.11.1",
  "sp-api",
